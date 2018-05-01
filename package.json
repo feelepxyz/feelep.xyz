@@ -9,7 +9,7 @@
     "gatsby-link": "^1.6.41",
     "gatsby-plugin-netlify": "^1.0.19",
     "gatsby-plugin-react-helmet": "^1.0.8",
-    "gatsby-source-contentful": "^1.3.45",
+    "gatsby-source-contentful": "^1.3.48",
     "gatsby-transformer-remark": "^1.7.40",
     "normalize.css": "^8.0.0"
   },
