@@ -8,6 +8,16 @@
   dependencies:
     regenerator-runtime "^0.12.0"
 
+"@reach/router@^1.1.1":
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/@reach/router/-/router-1.2.1.tgz#34ae3541a5ac44fa7796e5506a5d7274a162be4e"
+  dependencies:
+    create-react-context "^0.2.1"
+    invariant "^2.2.3"
+    prop-types "^15.6.1"
+    react-lifecycles-compat "^3.0.4"
+    warning "^3.0.0"
+
 "@types/configstore@^2.1.1":
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/@types/configstore/-/configstore-2.1.1.tgz#cd1e8553633ad3185c3f2f239ecff5d2643e92b6"
@@ -51,6 +61,13 @@
 "@types/node@^7.0.11":
   version "7.0.59"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-7.0.59.tgz#fd7dceba9521c2d62c3e0eda8c5d704bf88b261d"
+
+"@types/reach__router@^1.0.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@types/reach__router/-/reach__router-1.2.0.tgz#189c211870a608bec3d4162ade78ec372ad982b5"
+  dependencies:
+    "@types/history" "*"
+    "@types/react" "*"
 
 "@types/react-router-dom@^4.2.2":
   version "4.2.6"
@@ -2051,6 +2068,13 @@ create-react-class@^15.6.0:
     loose-envify "^1.3.1"
     object-assign "^4.1.1"
 
+create-react-context@^0.2.1:
+  version "0.2.3"
+  resolved "https://registry.yarnpkg.com/create-react-context/-/create-react-context-0.2.3.tgz#9ec140a6914a22ef04b8b09b7771de89567cb6f3"
+  dependencies:
+    fbjs "^0.8.0"
+    gud "^1.0.0"
+
 cross-env@^3.1.1:
   version "3.2.4"
   resolved "https://registry.yarnpkg.com/cross-env/-/cross-env-3.2.4.tgz#9e0585f277864ed421ce756f81a980ff0d698aba"
@@ -2944,6 +2968,18 @@ fb-watchman@^2.0.0:
   dependencies:
     bser "^2.0.0"
 
+fbjs@^0.8.0:
+  version "0.8.17"
+  resolved "https://registry.yarnpkg.com/fbjs/-/fbjs-0.8.17.tgz#c4d598ead6949112653d6588b01a5cdcd9f90fdd"
+  dependencies:
+    core-js "^1.0.0"
+    isomorphic-fetch "^2.1.1"
+    loose-envify "^1.0.0"
+    object-assign "^4.1.0"
+    promise "^7.1.1"
+    setimmediate "^1.0.5"
+    ua-parser-js "^0.7.18"
+
 fbjs@^0.8.14, fbjs@^0.8.16, fbjs@^0.8.9:
   version "0.8.16"
   resolved "https://registry.yarnpkg.com/fbjs/-/fbjs-0.8.16.tgz#5e67432f550dc41b572bf55847b8aca64e5337db"
@@ -3239,7 +3275,7 @@ gatsby-image@^1.0.48:
     babel-runtime "^6.26.0"
     prop-types "^15.6.0"
 
-gatsby-link@^1.6.41, gatsby-link@^1.6.46:
+gatsby-link@^1.6.41:
   version "1.6.46"
   resolved "https://registry.yarnpkg.com/gatsby-link/-/gatsby-link-1.6.46.tgz#1f9f6bd7a4d448a856c2035e54f2263d7933f4fd"
   dependencies:
@@ -3247,6 +3283,16 @@ gatsby-link@^1.6.41, gatsby-link@^1.6.46:
     "@types/react-router-dom" "^4.2.2"
     babel-runtime "^6.26.0"
     prop-types "^15.5.8"
+    ric "^1.3.0"
+
+gatsby-link@^2.0.4:
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/gatsby-link/-/gatsby-link-2.0.4.tgz#2af30f21171261d7b5ab61954704a399f81ca28f"
+  dependencies:
+    "@babel/runtime" "^7.0.0"
+    "@reach/router" "^1.1.1"
+    "@types/reach__router" "^1.0.0"
+    prop-types "^15.6.1"
     ric "^1.3.0"
 
 gatsby-module-loader@^1.0.11:
@@ -3642,6 +3688,10 @@ gray-matter@^3.0.0:
     js-yaml "^3.10.0"
     kind-of "^5.0.2"
     strip-bom-string "^1.0.0"
+
+gud@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/gud/-/gud-1.0.0.tgz#a489581b17e6a70beca9abe3ae57de7a499852c0"
 
 gzip-size@3.0.0:
   version "3.0.0"
@@ -4080,6 +4130,12 @@ interpret@^1.0.0:
 invariant@^2.2.0, invariant@^2.2.1, invariant@^2.2.2:
   version "2.2.2"
   resolved "https://registry.yarnpkg.com/invariant/-/invariant-2.2.2.tgz#9e1f56ac0acdb6bf303306f338be3b204ae60360"
+  dependencies:
+    loose-envify "^1.0.0"
+
+invariant@^2.2.3:
+  version "2.2.4"
+  resolved "https://registry.yarnpkg.com/invariant/-/invariant-2.2.4.tgz#610f3c92c9359ce1db616e538008d23ff35158e6"
   dependencies:
     loose-envify "^1.0.0"
 
@@ -6498,6 +6554,13 @@ prop-types@^15.5.4:
     loose-envify "^1.3.1"
     object-assign "^4.1.1"
 
+prop-types@^15.6.1:
+  version "15.6.2"
+  resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.6.2.tgz#05d5ca77b4453e985d60fc7ff8c859094a497102"
+  dependencies:
+    loose-envify "^1.3.1"
+    object-assign "^4.1.1"
+
 proper-lockfile@^1.1.2:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/proper-lockfile/-/proper-lockfile-1.2.0.tgz#ceff5dd89d3e5f10fb75e1e8e76bc75801a59c34"
@@ -6694,6 +6757,10 @@ react-hot-loader@^3.0.0-beta.6:
     react-proxy "^3.0.0-alpha.0"
     redbox-react "^1.3.6"
     source-map "^0.6.1"
+
+react-lifecycles-compat@^3.0.4:
+  version "3.0.4"
+  resolved "https://registry.yarnpkg.com/react-lifecycles-compat/-/react-lifecycles-compat-3.0.4.tgz#4f1a273afdfc8f3488a8c516bfda78f872352362"
 
 react-proxy@^3.0.0-alpha.0:
   version "3.0.0-alpha.1"
@@ -8260,6 +8327,10 @@ type-is@~1.6.15:
 type-of@^2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/type-of/-/type-of-2.0.1.tgz#e72a1741896568e9f628378d816d6912f7f23972"
+
+ua-parser-js@^0.7.18:
+  version "0.7.18"
+  resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.18.tgz#a7bfd92f56edfb117083b69e31d2aa8882d4b1ed"
 
 ua-parser-js@^0.7.9:
   version "0.7.17"
