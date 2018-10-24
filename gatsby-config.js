@@ -1,12 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: `feelep.xyz`,
+    title: `feelep.xyz`
   },
   plugins: [
     {
-      resolve: `gatsby-plugin-react-helmet`,
+      resolve: `gatsby-plugin-react-helmet`
     },
-    { resolve: 'gatsby-transformer-remark' },
-    { resolve: 'gatsby-plugin-netlify' }
-  ],
-}
+    { resolve: "gatsby-plugin-netlify" }
+  ]
+};

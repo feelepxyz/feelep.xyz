@@ -1,17 +1,15 @@
 body {
-  font-family: 'Inter UI', sans-serif;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
   font-size: 62.5%;
   line-height: 1.3;
   color: rgb(80, 80, 80);
   background-color: rgb(233, 233, 233);
 }
 
-a,
-a:visited {
-  color: rgb(20, 20, 20);
-}
-
-div, span {
+div,
+span {
   box-sizing: border-box;
   position: relative;
   border: 0 solid black;
@@ -35,9 +33,14 @@ h1 {
   margin-bottom: 0.6rem;
 }
 
-p, ul {
+p {
   font-weight: 400;
   font-size: 1rem;
   margin-top: 0.4rem;
   margin-bottom: 0.4rem;
+}
+
+a,
+a:visited {
+  color: rgb(20, 20, 20);
 }

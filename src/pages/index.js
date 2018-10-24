@@ -1,26 +1,40 @@
-import React from 'react'
+import React from "react";
+import Layout from "../components/layout";
 
-import {Divider} from '../components/divider';
+import { CONTACT_EMAIL } from "../constants";
 
-import {CONTACT_EMAIL} from '../constants'
+const Divider = ({ children }) => (
+  <div
+    style={{
+      height: "2px",
+      background: "rgb(80, 80, 80)",
+      margin: "1rem 0"
+    }}
+  />
+);
 
-const IndexPage = () => (
-  <div>
-    <h1>👋 i'm philip harrison, a software engineer living in stockholm.</h1>
-    <h1>recently built web products and helped people grow at <a href="https://gocardless.com/about/">gocardless</a>.</h1>
-    <h1>currently exploring the fringes and learning
-      about interesting ways to live, work and play.</h1>
+const Index = () => (
+  <Layout>
+    <h1>👋 i'm philip harrison, a software engineer living in stockholm</h1>
+    <h1>
+      currently helping build <a href="https://dependabot.com/">dependabot</a>
+      <br />
+      previously at <a href="https://gocardless.com/about/">gocardless</a>
+    </h1>
     <Divider />
     <p>
       <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>
     </p>
     <p>
-      <a href='https://www.linkedin.com/in/feelepxyz/'>linkedin</a>
+      <a href="https://www.linkedin.com/in/feelepxyz/">linkedin</a>
     </p>
     <p>
-      <a href='https://github.com/feelepxyz'>github</a>
+      <a href="https://github.com/feelepxyz">github</a>
     </p>
-  </div>
-)
+    <p>
+      <a href="https://keybase.io/feelepxyz">keybase</a>
+    </p>
+  </Layout>
+);
 
-export default IndexPage
+export default Index;

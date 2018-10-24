@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "baseUrl": ".",
+    "jsx": "react",
+    "moduleResolution": "node"
+  },
+  "exclude": ["node_modules/*"]
+}
