@@ -15,7 +15,12 @@ const Divider = ({ children }) => (
 
 const Index = () => (
   <Layout>
-    <h1>👋 i'm philip harrison, a software engineer living in stockholm</h1>
+    <h1>
+      <span role="img" aria-label="hi" style={{ display: "inline" }}>
+        👋
+      </span>{" "}
+      i'm philip harrison, a software engineer living in stockholm
+    </h1>
     <h1>
       currently helping build <a href="https://dependabot.com/">dependabot</a>
       <br />
