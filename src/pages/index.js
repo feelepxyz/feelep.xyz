@@ -3,7 +3,7 @@ import Layout from "../components/layout";
 
 import { CONTACT_EMAIL } from "../constants";
 
-const Divider = ({ children }) => (
+const Divider = () => (
   <div
     style={{
       height: "2px",
@@ -19,10 +19,10 @@ const Index = () => (
       <span role="img" aria-label="hi" style={{ display: "inline" }}>
         👋
       </span>{" "}
-      i'm philip harrison, a software engineer living in stockholm
+      i{"'"}m philip harrison, a software engineer living in stockholm
     </h1>
     <h1>
-      currently helping build <a href="https://dependabot.com/">dependabot</a>
+      currently helping build<a href="https://dependabot.com/">dependabot</a>
       <br />
       previously at <a href="https://gocardless.com/about/">gocardless</a>
     </h1>
