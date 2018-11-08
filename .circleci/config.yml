@@ -1,9 +1,20 @@
 version: 2
 jobs:
-  test:
+  build:
     docker:
-      - image: node:11
+      - image: circleci/node:11
+
+    working_directory: ~/feelep-xyz
+
     steps:
       - checkout
+      - restore_cache:
+          keys:
+            - v1-dependencies-{{ checksum "package.json" }}
+            - v1-dependencies-
       - run: yarn install
+      - save_cache:
+          paths:
+            - node_modules
+          key: v1-dependencies-{{ checksum "package.json" }}
       - run: yarn test
