@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "author": "Philip Harrison <philip@mailharrison.com>",
   "dependencies": {
-    "eslint": "^5.9.0",
+    "eslint": "^5.10.0",
     "gatsby": "^2.0.64",
     "gatsby-image": "^2.0.22",
     "gatsby-link": "^2.0.7",
