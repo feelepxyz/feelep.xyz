@@ -3,3 +3,10 @@ update_configs:
   - package_manager: "javascript"
     directory: "/"
     update_schedule: "live"
+    automerged_updates:
+      - match:
+          dependency_group: "development"
+          kind: "semver:minor"
+      - match:
+          dependency_group: "runtime"
+          kind: "semver:minor"
