@@ -6,10 +6,6 @@ update_configs:
     version_requirement_updates: "increase_versions"
     default_reviewers:
       - "feelepxyz"
-    default_assignees:
-      - "feelepxyz"
-    custom_labels:
-      - "feelepxyz"
     automerged_updates:
       - match:
           dependency_group: "development"
