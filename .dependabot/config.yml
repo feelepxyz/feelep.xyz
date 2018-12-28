@@ -1,7 +1,8 @@
-version: 2
+version: 1
 update_configs:
   - package_manager: "javascript"
     directory: "/"
+    target_branch: develop
     update_schedule: "live"
     version_requirement_updates: "increase_versions"
     default_reviewers:
