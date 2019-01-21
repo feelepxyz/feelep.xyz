@@ -3,16 +3,12 @@ update_configs:
   - package_manager: "javascript"
     directory: "/"
     update_schedule: "live"
-    version_requirement_updates: "increase_versions"
     default_reviewers:
       - "feelepxyz"
     automerged_updates:
       - match:
-          dependency_group: "development"
-          kind: "all"
-      - match:
-          dependency_group: "runtime"
+          dependency_type: "development"
           kind: "semver:minor"
       - match:
-          dependency_name: "prettier"
-          kind: "all"
+          dependency_type: "production"
+          kind: "semver:patch"
