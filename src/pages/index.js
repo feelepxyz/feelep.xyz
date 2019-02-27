@@ -22,9 +22,9 @@ const Index = () => (
       i{"'"}m philip harrison, a software engineer living in london
     </h1>
     <h1>
-      currently helping build <a href="https://dependabot.com/">dependabot</a>
+      building <a href="https://dependabot.com/">dependabot</a> <span aria-label="" role="img">🤖</span>
       <br />
-      previously at <a href="https://gocardless.com/about/">gocardless</a>
+      previously <a href="https://gocardless.com/about/">gocardless</a>
     </h1>
     <Divider />
     <p>
