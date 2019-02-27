@@ -22,9 +22,16 @@ const Index = () => (
       i{"'"}m philip harrison, a software engineer living in london
     </h1>
     <h1>
-      building <a href="https://dependabot.com/">dependabot</a> <span aria-label="" role="img">🤖</span>
+      building <a href="https://dependabot.com/">dependabot</a>{" "}
+      <span
+        style={{ display: "inline", verticalAlign: "middle" }}
+        aria-label=""
+        role="img"
+      >
+        🤖
+      </span>
       <br />
-      previously <a href="https://gocardless.com/about/">gocardless</a>
+      previously at <a href="https://gocardless.com/about/">gocardless</a>
     </h1>
     <Divider />
     <p>
