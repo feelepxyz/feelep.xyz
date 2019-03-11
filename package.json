@@ -8,7 +8,7 @@
     "gatsby": "^2.1.29",
     "gatsby-image": "^2.0.31",
     "gatsby-link": "^2.0.13",
-    "gatsby-plugin-netlify": "^2.0.11",
+    "gatsby-plugin-netlify": "^2.0.12",
     "gatsby-plugin-react-helmet": "^3.0.8",
     "normalize.css": "^8.0.1",
     "prop-types": "^15.7.2",
