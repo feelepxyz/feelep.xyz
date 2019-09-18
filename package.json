@@ -7,7 +7,7 @@
     "eslint": "^5.15.3",
     "gatsby": "^2.15.17",
     "gatsby-image": "^2.2.19",
-    "gatsby-link": "^2.2.13",
+    "gatsby-link": "^2.2.14",
     "gatsby-plugin-netlify": "^2.1.13",
     "gatsby-plugin-react-helmet": "^3.1.7",
     "normalize.css": "^8.0.1",
